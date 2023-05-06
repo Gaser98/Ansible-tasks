@@ -1,0 +1,5 @@
+apache_package: apache2
+template_file: apache2.conf.j2
+web_files:
+  - index.html
+  - style.css
