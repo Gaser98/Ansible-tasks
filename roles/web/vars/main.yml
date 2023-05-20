@@ -1,0 +1,13 @@
+package_list: 
+  - { package_name: "http", package_state: "present"}
+  - { package_name: "ksh", package_state: "latest"}  
+  - { package_name: "ksh", package_state: "absent"} 
+
+my_files:
+  - script.js
+  - style.css
+
+my_templates:
+  - index.html.j2
+
+welcome_message: welcome from the template of the host

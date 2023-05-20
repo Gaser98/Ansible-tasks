@@ -1,0 +1,6 @@
+- name: installation
+  yum:
+    name: "{{ item.package_name }}"
+    state: "{{ item.package_state }}"
+  loop: "{{ package_list }}"
+  notify: web_service
