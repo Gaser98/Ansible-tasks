@@ -1,3 +1,0 @@
-# This is the Apache2 configuration file in the template directory
-ServerName {{ server_name }}
-DocumentRoot {{ document_root }}
